@@ -1,0 +1,18 @@
+{
+  "ApplicationDetail": {
+    "ApplicationName": "OAuth2 API",
+    "Description": "Through this WebAPI you can access details",
+    "ContactWebsite": "https://github.com/KayStar645",
+    "LicenseDetail": "https://opensource.org/licenses/MIT"
+  },
+  "ConnectionStrings": {
+    "OAuth2ConnectString": "Data Source=[server];Initial Catalog=[database];Integrated Security=True;TrustServerCertificate=True;"
+  },
+  "AllowedHosts": "*",
+  "JwtSettings": {
+    "Key": "key",
+    "Issuer": "OAuth2",
+    "Audience": "OAuth2User",
+    "DurationInMinutes": 60000
+  }
+}
